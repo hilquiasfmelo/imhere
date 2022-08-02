@@ -21,7 +21,7 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     marginTop: 36,
-    marginBottom: 42
+    marginBottom: 42,
   },
   inputEvent: {
     flex: 1,
@@ -31,7 +31,7 @@ export const styles = StyleSheet.create({
     color: "#FCFDFE",
     padding: 16,
     fontSize: 16,
-    marginRight: 12
+    marginRight: 12,
   },
   buttonEvent: {
     width: 56,
@@ -44,5 +44,10 @@ export const styles = StyleSheet.create({
   buttonTextEvent: {
     color: "#000",
     fontSize: 24,
+  },
+  listEmptyText: {
+    color: "#FFF",
+    fontSize: 16,
+    textAlign: "center",
   },
 });
